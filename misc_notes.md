@@ -2,6 +2,7 @@
 
 Matt
 - (Done) Create Draft proposal
+- (Working) Finialize and submit proposal with team.
 - Ask Dr. Phillips how to cite Galaxy Zoo: Mergers data.
 - Upload sample data
 
