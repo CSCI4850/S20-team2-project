@@ -13,6 +13,7 @@
         - Add basic git document
     - Branch structure?
         - Seperate branches for seperate work?   (Good experience with git)
+    - You can use terminal and git repository on class juptyer server.
 
 ## Immediate To-Do
 
