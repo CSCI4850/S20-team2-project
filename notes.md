@@ -1,6 +1,6 @@
 ## Team Notes
 
-###Meeting discussion
+### Meeting discussion
 
 - Give introduction to COMS research at MTSU and the Galaxy Zoo: Mergers data.
 
