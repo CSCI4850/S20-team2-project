@@ -23,6 +23,12 @@
 - Ask Dr. Phillips how to cite Galaxy Zoo: Mergers data.
 - Upload sample data
 
+### Q's for Dr. Phillips
+- How to cite Galaxy Zoo: Mergers data.
+- Can we use the JupyterLab server for our project?
+    - Would we have a shared workspace?
+- How specific can the milestones be? 
+    
 
 ## Misc notes
 
