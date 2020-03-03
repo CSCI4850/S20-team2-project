@@ -30,9 +30,15 @@
 - How specific can the milestones be? 
     
 
-## Misc notes
+## Future notes
 
 Rescale pixel values before sending into NN. 
 - Grayscale images traditionally store pixel values as 0-255 int.   
 - NN don't like 0 imputs and our images have a lot of black space with 0 pixel values.
 - Rescale pixel values to -128->127 or something before sending through NN.
+
+Use pre-trained convoluted weights
+-https://keras.io/applications/#available-models
+- Several weights are unique to image feature extraction.
+
+Save weights periodically, review test accuracy plot, and use best weights
