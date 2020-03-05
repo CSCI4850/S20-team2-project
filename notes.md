@@ -2,11 +2,19 @@
 
 ### Meeting discussion
 
-- Give introduction to COMS research at MTSU and the Galaxy Zoo: Mergers data.
+- Get data_batch_1
+    - while in terminal on jupyter notebook use command 'wget cs.mtsu.edu/~mbo2d/miscImgs.zip'
+    - Command should download the zip file containing the first set of images and scores. 
 
-- Read and discuss proposal 
-    - Ask for additional ideas to add to proposal
-    - Mention that we could do other cool related stuff not directly related to the research.
+- Everyone build basic code to read images train a train single-layer network.
+    - For simplicity, you can turn into classification problem. (1 if > 0.5)
+
+- Discuss convolution neural networks.
+    - Watch the online lecture.
+    - Pay special attention to OLA6.
+    
+- New task, someone learn how to apply pre-trained convulated weights for images.
+
     
 - Discuss GIT repository
     - Does everyone know the basics of Git? 
