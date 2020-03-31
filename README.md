@@ -23,7 +23,7 @@ The saved weight will be added to new iterations of the CNN to provide a practic
 The process is easy from here. The CNN is retrained with the best weights and we can use this training to predict outcomes with images outside of our training or validation set. Below is a code snippet from https://towardsdatascience.com/visualizing-intermediate-activation-in-convolutional-neural-networks-with-keras-260b36d60d0
 It shows the process that follows this which is predicting and plotting the resulting activation values. We can also access the updated weights.
 
-layer_names = [] <br>
+**layer_names = [] <br>
 layer in classifier.layers[:12]: layer_names.append(layer.name) 
 
 Images_per_row = 16
@@ -48,7 +48,7 @@ for layer_name, layer_activation in zip(layer_names, activations): # Displays th
    plt.figure(figsize=(scale * display_grid.shape[1], scale * display_grid.shape[0])) <br>
    plt.title(layer_name) <br>
    plt.grid(False) <br>
-   plt.imshow(display_grid, aspect='auto', cmap='viridis')<br>
+   plt.imshow(display_grid, aspect='auto', cmap='viridis')**<br>
 
 ## Other Visual Representations
 This is where I will expand on obtaining other representation where applicable.
