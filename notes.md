@@ -18,6 +18,15 @@
     - Watch the online lecture.
     - Pay special attention to OLA6.
     
+### 
+
+Aric - Paper.  (Abstract done. methodology)
+Jarrett - Milestones, Applying ola6.
+Derrick - Demo, ola6 application. ()
+Ogden - comparing two images, regression model, single-layer. 
+Shawn - call back funcitons.  displaying weights.  saving weights. 
+Devon - CNN, 
+
     
 ### Project code
 
@@ -26,11 +35,14 @@ Needed skills to gain
 - Identify architectures useful for regression, classification, and binary decision models.
 - How to structure architecture to read in two images and compare them to one another.
 
+
 Primary Goal 
 1) Visualize weights that have been trained for patterns.
     - Build single layer newtorks that can conveniently visualize weights. 
+
 2) Build code to conveniently train a new regression model on a new system of model images and human scores.
     - Unique to each system. Can be solely based on model images.  Can also compare model image and target image.
+
 3) build general purpose regression model to compare two images.
     - Built across multiple systems. 
 
@@ -43,7 +55,7 @@ Misc Projects
     - Actual perturbedness values are stored in pCorrScores.txt.  (Ex. .4 is highly perturbed,  .9 is lowly perturbed. )
     1) Model Image
         - Classification model 
-            - Choose a perturbedness threshold, ( Ex. p > .85 is bad, p<=.85 is good ), 
+            - Choose a perturbedness threshold, ( Ex. p > .85 is bad, p <= .85 is good ), 
             - Use that as training classification
         - Regression Model
             - Try to match the perturbedness value
@@ -57,10 +69,7 @@ Misc Projects
     - https://keras.io/applications/
     - Has several pre-trained weights for image classification
         - Identify what kind of classifications they are built for. 
-    - Go through weights and visualize the patterns, scan if any patterns are good or bad for our research. 
-
-3) download and understand WNDCHRM.
-    - implement feature extraction. 
+    - Go through weights and visualize the patterns, scan if any patterns are good or bad for our research.
 
 
 ### ToDo list
@@ -70,8 +79,6 @@ Misc Projects
 
 ### Q's for Dr. Phillips
 - How to cite Galaxy Zoo: Mergers data.
-- Can we use the JupyterLab server for our project?
-    - Would we have a shared workspace?
 - How specific can the milestones be? 
     
 
@@ -83,7 +90,7 @@ Rescale pixel values before sending into NN.
 - Rescale pixel values to -128->127 or something before sending through NN.
 
 Use pre-trained convoluted weights
--https://keras.io/applications/#available-models
+- https://keras.io/applications/#available-models
 - Several weights are unique to image feature extraction.
 
 Save weights periodically, review test accuracy plot, and use best weights
