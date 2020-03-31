@@ -18,7 +18,7 @@ Slightly more generalized collection methods:
 
 The saved weight will be added to new iterations of the CNN to provide a practical starting point for testing the next batch. When .fit is ran it should contain a new field to callback to the checkpoint.
 
-### callbacks=[GetWeights],
+**callbacks=[GetWeights],**
 
 The process is easy from here. The CNN is retrained with the best weights and we can use this training to predict outcomes with images outside of our training or validation set. Below is a code snippet from https://towardsdatascience.com/visualizing-intermediate-activation-in-convolutional-neural-networks-with-keras-260b36d60d0
 It shows the process that follows this which is predicting and plotting the resulting activation values. We can also access the updated weights.
