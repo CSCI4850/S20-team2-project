@@ -20,12 +20,21 @@
     
 ### 
 
-Aric - Paper.  (Abstract done. methodology)
+Aric - Paper.  (Abstract done. methodology) CNN example
 Jarrett - Milestones, Applying ola6.
 Derrick - Demo, ola6 application. ()
-Ogden - comparing two images, regression model, single-layer. 
+Ogden - Comparing two images, regression model, single-layer. 
 Shawn - call back funcitons.  displaying weights.  saving weights. 
-Devon - CNN, 
+Devon - CNN, applying ola6
+
+
+Apr 7
+Aric -  ( Created a working CNN, good image shuffle, found noise in human scores ), different size kernel sizes, save weights 
+Derrick - ( Looked through demos, found good examples ), Derrick will show demo format, layout, and show us next week. 
+Ogden - ( Single layer, example of 2img nn ), two images, expand top data
+Jarret - ( Working CNN model )
+Shawn - ( CNN difficulties ), pull aric's and create CNN
+Devon - ( categorical difficulties ), grab someone else's cnn model and work on it. 
 
     
 ### Project code
