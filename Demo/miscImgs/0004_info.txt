@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 4
+model_name pyausiw2hm4bbkcqe4x_0010
+model_data -9.93853,-4.5805,7.63879,-2.23567,-2.56842,3.48341,20.68248,16.54578,1.99476,3.36775,301.35333,33.63883,313.23678,296.83971,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.91666,0,0,0.29368,-2.27999,4.47091,0.0,1.0,1.0,1.0,0.0,0.0
+human_score 0.9166666666666666
+wins_total 33/36
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400

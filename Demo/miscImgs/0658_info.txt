@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 658
+model_name nvsx992vipo2gymlaz_0000
+model_data -9.93853,-4.5805,5.0262,-1.29791,-2.48952,6.48531,13.50765,15.5366,1.80737,3.96869,310.15052,39.4734,223.66963,120.28684,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.08571,0,0,0.18245,-2.79999,6.02373,0.0,0.0,0.0,0.0,0.0,0.0
+human_score 0.08571428571428572
+wins_total 3/35
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400
