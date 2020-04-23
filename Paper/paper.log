@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.9)  23 APR 2020 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.9)  23 APR 2020 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,74 +409,84 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-<./Images/target.png, id=1, 1204.5pt x 803.0pt>
+<./Images/distribution.png, id=1, 433.62pt x 289.08pt>
+File: ./Images/distribution.png Graphic file (type png)
+<use ./Images/distribution.png>
+Package pdftex.def Info: ./Images/distribution.png  used on input line 90.
+(pdftex.def)             Requested size: 189.0pt x 126.0002pt.
+
+
+LaTeX Warning: Reference `distribution.png' on page 1 undefined on input line 9
+5.
+
+<./Images/target.png, id=3, 1204.5pt x 803.0pt>
 File: ./Images/target.png Graphic file (type png)
 <use ./Images/target.png>
-Package pdftex.def Info: ./Images/target.png  used on input line 92.
+Package pdftex.def Info: ./Images/target.png  used on input line 98.
 (pdftex.def)             Requested size: 189.0pt x 125.9953pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./Images/target.png (PNG copy)>]
-<./Images/convNet.png, id=11, 637.38126pt x 962.59625pt>
+ <./Images/distribution.png> <./Images/target.png (PNG copy)>]
+<./Images/convNet.png, id=14, 637.38126pt x 962.59625pt>
 File: ./Images/convNet.png Graphic file (type png)
 <use ./Images/convNet.png>
-Package pdftex.def Info: ./Images/convNet.png  used on input line 114.
+Package pdftex.def Info: ./Images/convNet.png  used on input line 120.
 (pdftex.def)             Requested size: 126.0pt x 190.28326pt.
-<./Images/SingleModelLoss.png, id=13, 429.605pt x 174.6525pt>
+<./Images/SingleModelLoss.png, id=15, 429.605pt x 174.6525pt>
 File: ./Images/SingleModelLoss.png Graphic file (type png)
 <use ./Images/SingleModelLoss.png>
-Package pdftex.def Info: ./Images/SingleModelLoss.png  used on input line 126.
+Package pdftex.def Info: ./Images/SingleModelLoss.png  used on input line 132.
 (pdftex.def)             Requested size: 189.0pt x 76.83667pt.
-<./Images/SinglePredictedVAct.png, id=14, 433.62pt x 289.08pt>
+<./Images/SinglePredictedVAct.png, id=16, 433.62pt x 289.08pt>
 File: ./Images/SinglePredictedVAct.png Graphic file (type png)
 <use ./Images/SinglePredictedVAct.png>
 Package pdftex.def Info: ./Images/SinglePredictedVAct.png  used on input line 1
-34.
+40.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/SingleDiffVAct.png, id=15, 433.62pt x 289.08pt>
+<./Images/SingleDiffVAct.png, id=17, 433.62pt x 289.08pt>
 File: ./Images/SingleDiffVAct.png Graphic file (type png)
 <use ./Images/SingleDiffVAct.png>
-Package pdftex.def Info: ./Images/SingleDiffVAct.png  used on input line 142.
+Package pdftex.def Info: ./Images/SingleDiffVAct.png  used on input line 148.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
- [2 <./Images/convNet.png> <./Images/SingleModelLoss.png> <./Images/SinglePredi
-ctedVAct.png> <./Images/SingleDiffVAct.png>]
-<./Images/SinglePredictedBest.png, id=23, 433.62pt x 289.08pt>
+<./Images/SinglePredictedBest.png, id=18, 433.62pt x 289.08pt>
 File: ./Images/SinglePredictedBest.png Graphic file (type png)
 <use ./Images/SinglePredictedBest.png>
 Package pdftex.def Info: ./Images/SinglePredictedBest.png  used on input line 1
-50.
+56.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvModelLoss.png, id=24, 429.605pt x 178.6675pt>
+ [2 <./Images/convNet.png> <./Images/SingleModelLoss.png> <./Images/SinglePredi
+ctedVAct.png>]
+<./Images/ConvModelLoss.png, id=25, 429.605pt x 178.6675pt>
 File: ./Images/ConvModelLoss.png Graphic file (type png)
 <use ./Images/ConvModelLoss.png>
-Package pdftex.def Info: ./Images/ConvModelLoss.png  used on input line 160.
+Package pdftex.def Info: ./Images/ConvModelLoss.png  used on input line 166.
 (pdftex.def)             Requested size: 189.0pt x 78.60303pt.
-<./Images/ConvPredictedVAct.png, id=25, 433.62pt x 289.08pt>
+<./Images/ConvPredictedVAct.png, id=26, 433.62pt x 289.08pt>
 File: ./Images/ConvPredictedVAct.png Graphic file (type png)
 <use ./Images/ConvPredictedVAct.png>
-Package pdftex.def Info: ./Images/ConvPredictedVAct.png  used on input line 168
+Package pdftex.def Info: ./Images/ConvPredictedVAct.png  used on input line 174
 .
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvDiffVAct.png, id=26, 433.62pt x 289.08pt>
+<./Images/ConvDiffVAct.png, id=27, 433.62pt x 289.08pt>
 File: ./Images/ConvDiffVAct.png Graphic file (type png)
 <use ./Images/ConvDiffVAct.png>
-Package pdftex.def Info: ./Images/ConvDiffVAct.png  used on input line 176.
+Package pdftex.def Info: ./Images/ConvDiffVAct.png  used on input line 182.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvPredictedBest.png, id=27, 433.62pt x 289.08pt>
+<./Images/ConvPredictedBest.png, id=28, 433.62pt x 289.08pt>
 File: ./Images/ConvPredictedBest.png Graphic file (type png)
 <use ./Images/ConvPredictedBest.png>
-Package pdftex.def Info: ./Images/ConvPredictedBest.png  used on input line 184
+Package pdftex.def Info: ./Images/ConvPredictedBest.png  used on input line 190
 .
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
- [3 <./Images/SinglePredictedBest.png> <./Images/ConvModelLoss.png> <./Images/C
-onvPredictedVAct.png> <./Images/ConvDiffVAct.png> <./Images/ConvPredictedBest.p
-ng>]
-<./Images/ConvHumanNoiseExample.png, id=39, 433.62pt x 289.08pt>
+ [3 <./Images/SingleDiffVAct.png> <./Images/SinglePredictedBest.png> <./Images/
+ConvModelLoss.png> <./Images/ConvPredictedVAct.png> <./Images/ConvDiffVAct.png>
+ <./Images/ConvPredictedBest.png>]
+<./Images/ConvHumanNoiseExample.png, id=41, 433.62pt x 289.08pt>
 File: ./Images/ConvHumanNoiseExample.png Graphic file (type png)
 <use ./Images/ConvHumanNoiseExample.png>
 Package pdftex.def Info: ./Images/ConvHumanNoiseExample.png  used on input line
- 197.
+ 203.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
  (./paper.bbl)
 
@@ -490,29 +500,30 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[4 <./Images/ConvHumanNoiseExample.png>] (./paper.aux)
 
- <./Images/ConvHumanNoiseExample.png>] (./paper.aux) ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3949 strings out of 494847
- 59540 string characters out of 6179081
- 116515 words of memory out of 5000000
- 7203 multiletter control sequences out of 15000+600000
- 40570 words of font info for 85 fonts, out of 8000000 for 9000
+ 3957 strings out of 494847
+ 59717 string characters out of 6179081
+ 116524 words of memory out of 5000000
+ 7209 multiletter control sequences out of 15000+600000
+ 41677 words of font info for 86 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  41i,7n,26p,850b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (4 pages, 326041 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (4 pages, 334102 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
