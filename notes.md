@@ -36,6 +36,13 @@ Jarret - ( Working CNN model )
 Shawn - ( CNN difficulties ), pull aric's and create CNN
 Devon - ( categorical difficulties ), grab someone else's cnn model and work on it. 
 
+Apr 23
+Aric - Paper
+Derrick - Demo
+Matthew - Data
+Shawn - Visuals
+Jarret 
+
     
 ### Project code
 
