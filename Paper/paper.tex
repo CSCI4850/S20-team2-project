@@ -158,6 +158,12 @@ Fig. \ref{fig:SingleDiffVAct} shows the difference between the values predicted 
 \label{fig:SinglePredictedBest}
 \end{figure}
 
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.75\linewidth]{./Images/singleWeights.png}}
+\caption{Visualization of weights for the single layer net}
+\label{fig:singleWeights}
+\end{figure}
+
 Shown in Fig. \ref{fig:SinglePredictedBest} is the model that the single layer net scored the highest (0.846). Its real human score was 0.946, so this shows good agreement between the net's perception and human perception of what the best model is. We can also visually verify that this chosen model closely resembles the target image shown in Fig. \ref{fig:TargetGalaxy}.
 
 \subsection{Convolutional Neural Net Results}
@@ -185,6 +191,24 @@ Like with the single layer net, Fig. \ref{fig:ConvPredictedVAct} shows a linear 
 \end{figure}
 
 Once again, Fig. \ref{fig:ConvDiffVAct} shows that the convolutional net has a tendency to overscore worse models and underscore better models. However, when compared to the single layer net, we see a much tighter grouping of worse models (human scores $\leq0.3$) that the model was able to accurately guess with a difference of $-0.1 \leq$ Diff $\leq 0.1$. For the 90 image testing set, the convoltional net attained a mean difference of 0.112, which is slightly worse than the single layer net. 
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.75\linewidth]{./Images/convWeight1.png}}
+\caption{Visualization of weights for the first convolution layer}
+\label{fig:convWeight1}
+\end{figure}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.75\linewidth]{./Images/convWeight2.png}}
+\caption{Visualization of weights for the second convolution layer}
+\label{fig:convWeight2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.75\linewidth]{./Images/layer1activations.png}}
+\caption{Visualization of network activations for the first convolution layer}
+\label{fig:layer1activations}
+\end{figure}
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.75\linewidth]{./Images/ConvPredictedBest.png}}
