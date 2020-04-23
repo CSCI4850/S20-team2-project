@@ -201,12 +201,6 @@ Both the single layer neural network and convolutional neural network show promi
 
 Another factor to consider is the noise associated with the human scores. As a citizen scientist project, the models in the Galaxy Zoo: Mergers data set we ranked by people with minimal training. There are also no checks in place to prevent against people clicking though models without consideration, artificially inflating or deflating their scores. We must also acknowledge the randomness of the tournament system. It is entirely possible that some models were "unlucky" and went against rounds of exclusively good models, causing them to be scored lower than they actually should have or vice versa.
 
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=0.75\linewidth]{./Images/ConvHumanNoiseExample.png}}
-\caption{Example of a model that the convolutional net scored "poorly" when just comparing against human score.}
-\label{fig:ConvHumanNoiseExample}
-\end{figure}
-
 Take for example the model shown in Fig. \ref{fig:ConvHumanNoiseExample}. This was one of the convolutional net's worst predictions, with a difference of nearly 0.5 between the net's predicted score of 0.195 and the human score of 0.676. However, if we visually compare this model with the target image, one could argue that the model did not deserve such a high human score. Instead, the model might better represent a score between the net's prediction and the human score. 
 
 Future work could pertain to the expansion of the the convolutional nets to include more layers. Training with these extra layers and units would necessitate a larger data set, hopefully with a more even distributionn of model quality. We believe that such a net would obtain better results than either of the nets described in this paper.  Also, the nets we created for this paper could be applied to the other 61 galaxy pairs, and, with enough training, possibly eliminate the need for human rankings in the first place. This would allow for new models to be created and scored much faster than they have been previously. 
