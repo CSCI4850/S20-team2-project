@@ -1,0 +1,16 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 1192
+model_name somojjt0wkvc7dsxxfi_0000
+model_data -9.93853,-4.5805,1.06689,-1.403,1.82824,2.42507,34.72013,20.72167,2.42745,4.0766,295.79117,19.97298,228.19256,121.30365,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.23721,-22.09999,9.08857,0.0,0.0,1.0,1.0,0.0,0.0
+human_score 0.0
+wins_total 0/34
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399

@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 471
+model_name 1twdqs65humumfngntpf_0011
+model_data -9.93853,-4.5805,22.11508,-1.56475,-2.36338,-6.52273,32.72112,18.82477,2.34773,2.60626,298.46756,37.12242,44.88423,65.10855,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.11764,0,0,0.29431,-3.41999,4.60738,0.0,0.0,1.0,1.0,0.0,0.0
+human_score 0.11764705882352941
+wins_total 4/34
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399

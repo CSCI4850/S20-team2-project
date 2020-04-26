@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 366
+model_name tpm896hi5ajaen38otk_0006
+model_data -9.93853,-4.5805,-2.45294,-0.3368,-2.37305,-5.48348,21.67531,16.10925,3.43642,4.67003,298.76842,33.96537,313.05228,294.09164,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.16666,0,0,0.21126,-26.09999,7.75127,0.0,1.0,0.0,0.0,0.0,0.0
+human_score 0.16666666666666666
+wins_total 6/36
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399

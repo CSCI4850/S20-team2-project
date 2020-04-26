@@ -1,0 +1,16 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 1125
+model_name 6lv46iyh1s3564cqoin_0004
+model_data -9.93853,-4.5805,9.21806,-1.56381,-1.03689,-2.26024,20.72207,9.86839,2.72454,2.52862,309.58746,33.00553,133.66688,309.06211,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.26521,-3.07999,4.70091,0.0,0.0,0.0,0.0,0.0,0.0
+human_score 0.0
+wins_total 0/35
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399
