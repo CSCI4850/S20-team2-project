@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 888
+model_name r5aunlbogampseiwaq6_0001
+model_data -9.93853,-4.5805,-7.99161,0.49004,-1.47423,-2.47644,34.13688,13.78978,2.62294,3.59836,305.87046,36.04828,37.60269,236.38407,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.05555,0,0,0.03252,0.0,13.64012,0.0,0.0,0.0,0.0,0.0,0.0
+human_score 0.05555555555555555
+wins_total 2/36
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400

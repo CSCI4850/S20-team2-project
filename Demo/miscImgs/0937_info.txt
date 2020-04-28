@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 937
+model_name 1rt6955huwtsbapm8lh5_0003
+model_data -9.93853,-4.5805,3.89246,-1.45457,-0.86091,-5.50964,23.33004,11.59848,2.99316,3.63162,288.8125,21.625,317.51552,317.51552,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.02941,0,0,0.52325,-3.79999,3.88335,0.0,1.0,1.0,2.0,0.0,0.0
+human_score 0.029411764705882353
+wins_total 1/34
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399
