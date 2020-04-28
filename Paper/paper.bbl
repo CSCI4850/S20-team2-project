@@ -21,14 +21,20 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{b1}
-L.~D. Trang and Z.~Mebkhout, ``Vari\'et\'es caract\'er\-istiques et
-  vari\'et\'es polaires,'' \emph{C. R. Acad. Sc. Paris}, vol. 296, pp.
-  129--132, 1983.
+\bibitem{Toomre}
+A.~{Toomre} and J.~{Toomre}, ``Galactic bridges and tails,'' \emph{The
+  Astrophysical Journal}, vol. 178, pp. 623--666, Dec. 1972.
 
-\bibitem{b2}
-J.~Biran{\c c}on, P.~Maisonobe, and M.~Merle, ``Localisation de syst\`emes
-  diff\'erentiels, stratifications de {W}hitney et condition de {T}hom,''
-  \emph{Invent. Math.}, vol. 117, pp. 531--550, 1994.
+\bibitem{WallinJSPAM}
+J.~Wallin, A.~Holincheck, and A.~Harvey, ``Jspam: A restricted three-body code
+  for simulating interacting galaxies,'' \emph{Astronomy and Computing},
+  vol.~16, 11 2015.
+
+\bibitem{WallinGalaxyZoo}
+A.~Holincheck, J.~Wallin, K.~Borne, L.~Fortson, C.~Lintott, A.~Smith,
+  S.~Bamford, W.~Keel, and M.~Parrish, ``\BIBforeignlanguage{English
+  (US)}{Galaxy zoo: Mergers - dynamical models of interacting galaxies},''
+  \emph{\BIBforeignlanguage{English (US)}{Monthly Notices of the Royal
+  Astronomical Society}}, vol. 459, no.~1, pp. 720--745, Jun. 2016.
 
 \end{thebibliography}

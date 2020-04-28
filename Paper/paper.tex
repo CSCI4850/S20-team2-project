@@ -42,10 +42,10 @@ Murfreesboro, United States \\
 Jarrett.shaver@gmail.com}\\
 \and
 \IEEEauthorblockN{Matthew Ogden}
-\IEEEauthorblockA{\textit{Department of Computer Science} \\
+\IEEEauthorblockA{\textit{Computational Science, PhD Program} \\
 \textit{Middle Tennessee State University}\\
 Murfreesboro, United States \\
-email address}\\
+mbo2d@mtmail.mtsu.edu}\\
 \IEEEauthorblockN{Devon Wilson}
 \IEEEauthorblockA{\textit{Department of Computer Science} \\
 \textit{Middle Tennessee State University}\\
@@ -72,19 +72,76 @@ component, formatting, style, styling, insert
 % INTRODUCTION SECTION
 \section{Introduction}
 
-Start typing here \cite{b1}.
+When two galaxies merge, it causes a drastic change in the
+evolution of the resulting galaxy. Understanding ongoing
+collisions in the night sky, will aid scientists in their exploration
+to uncover more about merging galaxies. Unfortunately,
+information such as orbital velocities, orientations, and mass-ratios between the two galaxies cannot be obtained from
+observation alone.
+
+To obtain this information, past research has looked into
+modeling the dynamics of interacting galaxies and developing
+galactic models to simulate galaxy interactions. By finding
+models and analyzing how well they fit known observations of
+galaxies, models that “best fit” observations could reflect the
+true parameters for the galaxy collisions.
+
+This project takes data from galactic models and associated
+human fitness scores, with the goal to develop several Neural
+Network Tools that help scientists better understand this
+data, and develop a machine fitness score that matches the
+human fitness score. By having theses tools, scientists can
+quicken the search to find those well-fitting models, explore
+the galactic model parameter space, and hopefully find the
+true dynamic parameters for observable galaxy collisions.
 
 % BACKGROUND SECTION
 \section{Background}
 
-Start typing here \cite{b2}.
+Our project is based on several pieces of research. First is
+the work of Toomre and Toomre who demonstrated merging
+galaxies would cause distinct tidal distortions \cite{Toomre}. These tidal
+distortions often result in the galaxies forming “bridges” and
+“tails”, star regions that appear to bridge the gap between the
+two galaxies, and arc away from each other. Toomre and
+Toomre performed a variety of simulations showing that the
+gravitation interactions caused these distinct shapes \cite{Toomre}.
+
+Second is the work of SPAM. SPAM is O(n) public release
+software that builds upon the restricted three-body model to
+simulate galactic models merging. SPAM takes galactic
+models and simulates the two galaxies merger. In addition,
+point particles are added, undergoing realistic tidal distortions
+and produce the iconic bridge and tail shapes \cite{WallinJSPAM}.
+
+Lastly, most of our data has origins from Galaxy Zoo:
+Mergers. Galaxy Zoo: Mergers is a citizen scientist effort to
+explore the unknown parameter space for the galactic models.
+Using the quick efficiency of SPAM to visual the final shape of
+galactic models, millions of galactic models were simulated
+and views by thousands of volunteers. Citizen scientists would
+select models with a similar shape to the target image the
+models are attempting to represent. From there, those
+selected models went through a tournament like competition
+with other models to receive the human fitness score. The
+citizen scientist would choose the galactic model whose shape
+better matches the target images. After going through the
+tournament, all the models would have an associated fitness
+scores \cite{WallinGalaxyZoo}.
+
+The galactic models and their associated human fitness
+score are what were used in this project. The human fitness
+scores were directly applied, while the galactic models had to
+be visualized again. The galactic models were sent through
+SPAM again with a larger number of particles to obtain a 
+higher resolution image of the colliding galaxies. These model
+images and the human fitness scores are used \cite{WallinJSPAM}\cite{WallinGalaxyZoo}.
+
 
 % METHODS SECTION
 \section{Methods}
 
 \subsection{Data}
-
-Our data was pulled from Galaxy Zoo: Mergers. This citizen scientist project had people view models for 62 pairs of colliding galaxies and choose which model best fit the taget galaxy image. The selected models were then put through a tournament system in which people would continue to select which model they believed to be best. After this tournament, each model was then assigned a score from 0 to 1 which represented how often it had been picked as the best model in the tournament. For example, a model with a score of 0.95 was chosen to be the best in 95\% of its tournament rounds.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.75\linewidth]{./Images/distribution.png}}
