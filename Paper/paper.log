@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.9)  28 APR 2020 00:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.9)  28 APR 2020 01:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,97 +436,173 @@ Package pdftex.def Info: ./Images/distribution.png  used on input line 147.
 
 
 ]
-<./Images/target.png, id=12, 1204.5pt x 803.0pt>
-File: ./Images/target.png Graphic file (type png)
-<use ./Images/target.png>
-Package pdftex.def Info: ./Images/target.png  used on input line 155.
-(pdftex.def)             Requested size: 189.0pt x 125.9953pt.
-<./Images/convNet.png, id=13, 637.38126pt x 962.59625pt>
+
+LaTeX Warning: File `./Images/target.png' not found on input line 155.
+
+
+! Package pdftex.def Error: File `./Images/target.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 ...dth=0.75\linewidth]{./Images/target.png}}
+                                                  
+? 
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 155.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Warning: Citation `OLA6' on page 2 undefined on input line 160.
+
+
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation `OLA6' on page 2 undefined on input line 172.
+
+<./Images/convNet.png, id=12, 637.38126pt x 962.59625pt>
 File: ./Images/convNet.png Graphic file (type png)
 <use ./Images/convNet.png>
 Package pdftex.def Info: ./Images/convNet.png  used on input line 177.
 (pdftex.def)             Requested size: 126.0pt x 190.28326pt.
-<./Images/SingleModelLoss.png, id=14, 429.605pt x 174.6525pt>
-File: ./Images/SingleModelLoss.png Graphic file (type png)
-<use ./Images/SingleModelLoss.png>
-Package pdftex.def Info: ./Images/SingleModelLoss.png  used on input line 189.
-(pdftex.def)             Requested size: 189.0pt x 76.83667pt.
- [2 <./Images/distribution.png> <./Images/target.png (PNG copy)> <./Images/conv
-Net.png>]
-<./Images/SinglePredictedVAct.png, id=20, 433.62pt x 289.08pt>
-File: ./Images/SinglePredictedVAct.png Graphic file (type png)
-<use ./Images/SinglePredictedVAct.png>
-Package pdftex.def Info: ./Images/SinglePredictedVAct.png  used on input line 1
-97.
-(pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/SingleDiffVAct.png, id=21, 433.62pt x 289.08pt>
-File: ./Images/SingleDiffVAct.png Graphic file (type png)
-<use ./Images/SingleDiffVAct.png>
-Package pdftex.def Info: ./Images/SingleDiffVAct.png  used on input line 205.
-(pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/singleWeights.png, id=22, 433.62pt x 289.08pt>
-File: ./Images/singleWeights.png Graphic file (type png)
-<use ./Images/singleWeights.png>
-Package pdftex.def Info: ./Images/singleWeights.png  used on input line 213.
-(pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/SinglePredictedBest.png, id=23, 433.62pt x 289.08pt>
-File: ./Images/SinglePredictedBest.png Graphic file (type png)
-<use ./Images/SinglePredictedBest.png>
-Package pdftex.def Info: ./Images/SinglePredictedBest.png  used on input line 2
-21.
-(pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvModelLoss.png, id=24, 429.605pt x 178.6675pt>
+
+LaTeX Warning: File `./Images/SingleModelLoss.png' not found on input line 189.
+
+
+
+! Package pdftex.def Error: File `./Images/SingleModelLoss.png' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 ...linewidth]{./Images/SingleModelLoss.png}}
+                                                  
+? 
+
+LaTeX Warning: File `./Images/SinglePredictedVAct.png' not found on input line 
+197.
+
+
+! Package pdftex.def Error: File `./Images/SinglePredictedVAct.png' not found: 
+using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 ...width]{./Images/SinglePredictedVAct.png}}
+                                                  
+? 
+
+LaTeX Warning: File `./Images/SingleDiffVAct.png' not found on input line 205.
+
+
+! Package pdftex.def Error: File `./Images/SingleDiffVAct.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 ...\linewidth]{./Images/SingleDiffVAct.png}}
+                                                  
+? 
+[2 <./Images/distribution.png>]
+
+LaTeX Warning: File `./Images/singleWeights.png' not found on input line 213.
+
+
+! Package pdftex.def Error: File `./Images/singleWeights.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...5\linewidth]{./Images/singleWeights.png}}
+                                                  
+? 
+
+LaTeX Warning: File `./Images/SinglePredictedBest.png' not found on input line 
+221.
+
+
+! Package pdftex.def Error: File `./Images/SinglePredictedBest.png' not found: 
+using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221 ...width]{./Images/SinglePredictedBest.png}}
+                                                  
+? 
+[3 <./Images/convNet.png>]
+<./Images/ConvModelLoss.png, id=22, 429.605pt x 178.6675pt>
 File: ./Images/ConvModelLoss.png Graphic file (type png)
 <use ./Images/ConvModelLoss.png>
 Package pdftex.def Info: ./Images/ConvModelLoss.png  used on input line 232.
 (pdftex.def)             Requested size: 189.0pt x 78.60303pt.
- [3 <./Images/SingleModelLoss.png> <./Images/SinglePredictedVAct.png> <./Images
-/SingleDiffVAct.png> <./Images/singleWeights.png> <./Images/SinglePredictedBest
-.png>]
-<./Images/ConvPredictedVAct.png, id=33, 433.62pt x 289.08pt>
+<./Images/ConvPredictedVAct.png, id=23, 433.62pt x 289.08pt>
 File: ./Images/ConvPredictedVAct.png Graphic file (type png)
 <use ./Images/ConvPredictedVAct.png>
 Package pdftex.def Info: ./Images/ConvPredictedVAct.png  used on input line 240
 .
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvDiffVAct.png, id=34, 433.62pt x 289.08pt>
+<./Images/ConvDiffVAct.png, id=24, 433.62pt x 289.08pt>
 File: ./Images/ConvDiffVAct.png Graphic file (type png)
 <use ./Images/ConvDiffVAct.png>
 Package pdftex.def Info: ./Images/ConvDiffVAct.png  used on input line 248.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/convWeight1.png, id=35, 867.24pt x 867.24pt>
+<./Images/convWeight1.png, id=25, 867.24pt x 867.24pt>
 File: ./Images/convWeight1.png Graphic file (type png)
 <use ./Images/convWeight1.png>
 Package pdftex.def Info: ./Images/convWeight1.png  used on input line 256.
 (pdftex.def)             Requested size: 189.0pt x 188.9937pt.
-<./Images/convWeight2.png, id=36, 867.24pt x 867.24pt>
+<./Images/convWeight2.png, id=26, 867.24pt x 867.24pt>
 File: ./Images/convWeight2.png Graphic file (type png)
 <use ./Images/convWeight2.png>
 Package pdftex.def Info: ./Images/convWeight2.png  used on input line 262.
 (pdftex.def)             Requested size: 189.0pt x 188.9937pt.
-<./Images/layer1activations.png, id=37, 867.24pt x 867.24pt>
-File: ./Images/layer1activations.png Graphic file (type png)
-<use ./Images/layer1activations.png>
-Package pdftex.def Info: ./Images/layer1activations.png  used on input line 268
-.
-(pdftex.def)             Requested size: 189.0pt x 188.9937pt.
- [4 <./Images/ConvModelLoss.png> <./Images/ConvPredictedVAct.png> <./Images/Con
-vDiffVAct.png> <./Images/convWeight1.png> <./Images/convWeight2.png> <./Images/
-layer1activations.png>]
-<./Images/ConvPredictedBest.png, id=50, 433.62pt x 289.08pt>
+
+
+LaTeX Warning: File `./Images/layer1activations.png' not found on input line 26
+8.
+
+
+! Package pdftex.def Error: File `./Images/layer1activations.png' not found: us
+ing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 ...newidth]{./Images/layer1activations.png}}
+                                                  
+? 
+[4 <./Images/ConvModelLoss.png> <./Images/ConvPredictedVAct.png> <./Images/Conv
+DiffVAct.png> <./Images/convWeight1.png>]
+<./Images/ConvPredictedBest.png, id=37, 433.62pt x 289.08pt>
 File: ./Images/ConvPredictedBest.png Graphic file (type png)
 <use ./Images/ConvPredictedBest.png>
 Package pdftex.def Info: ./Images/ConvPredictedBest.png  used on input line 276
 .
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvHumanNoiseExample.png, id=51, 433.62pt x 289.08pt>
+<./Images/ConvHumanNoiseExample.png, id=38, 433.62pt x 289.08pt>
 File: ./Images/ConvHumanNoiseExample.png Graphic file (type png)
 <use ./Images/ConvHumanNoiseExample.png>
 Package pdftex.def Info: ./Images/ConvHumanNoiseExample.png  used on input line
  289.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-
-(./paper.bbl
+ [5 <./Images/convWeight2.png> <./Images/ConvPredictedBest.png> <./Images/ConvH
+umanNoiseExample.png>] (./paper.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English (US)'. Using the pattern for
 ** the default language instead.
@@ -545,27 +621,33 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5 <./Images/ConvPredictedBest.png> <./Images/ConvHumanNoiseExample.png>]
-(./paper.aux) ) 
+[6
+
+] (./paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3978 strings out of 494847
- 60349 string characters out of 6179081
+ 3987 strings out of 494847
+ 59923 string characters out of 6179081
  116563 words of memory out of 5000000
- 7227 multiletter control sequences out of 15000+600000
- 40570 words of font info for 85 fonts, out of 8000000 for 9000
+ 7230 multiletter control sequences out of 15000+600000
+ 42192 words of font info for 88 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,7n,26p,850b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (5 pages, 492739 bytes).
+ 41i,7n,26p,877b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (6 pages, 256832 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
