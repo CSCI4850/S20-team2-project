@@ -37,4 +37,10 @@ A.~Holincheck, J.~Wallin, K.~Borne, L.~Fortson, C.~Lintott, A.~Smith,
   \emph{\BIBforeignlanguage{English (US)}{Monthly Notices of the Royal
   Astronomical Society}}, vol. 459, no.~1, pp. 720--745, Jun. 2016.
 
+\bibitem{phillips}
+\BIBentryALTinterwordspacing
+J.~Phillips, ``Open lab assignment 6.'' [Online]. Available:
+  \url{https://www.cs.mtsu.edu/~jphillips/courses/CSCI4850-5850/}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

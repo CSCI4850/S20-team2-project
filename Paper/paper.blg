@@ -8,51 +8,54 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
-Warning--I didn't find a database entry for "OLA6"
+Repeated entry---line 41 of file references.bib
+ : @article{WallinGalaxyZoo
+ :                         ,
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 3 entries,
+You've used 4 entries,
             4087 wiz_defined-function locations,
-            848 strings with 7951 characters,
-and the built_in function-call counts, 2567 in all, are:
-= -- 197
-> -- 74
+            850 strings with 8045 characters,
+and the built_in function-call counts, 2900 in all, are:
+= -- 220
+> -- 78
 < -- 21
-+ -- 40
-- -- 14
-* -- 150
-:= -- 391
-add.period$ -- 6
-call.type$ -- 3
-change.case$ -- 3
++ -- 42
+- -- 15
+* -- 161
+:= -- 452
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 4
 chr.to.int$ -- 45
-cite$ -- 3
-duplicate$ -- 178
-empty$ -- 180
-format.name$ -- 17
-if$ -- 573
+cite$ -- 4
+duplicate$ -- 207
+empty$ -- 215
+format.name$ -- 18
+if$ -- 645
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 32
-newline$ -- 32
-num.names$ -- 3
-pop$ -- 68
+int.to.str$ -- 4
+missing$ -- 39
+newline$ -- 37
+num.names$ -- 4
+pop$ -- 92
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 183
+skip$ -- 207
 stack$ -- 0
-substring$ -- 108
-swap$ -- 160
+substring$ -- 109
+swap$ -- 174
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 3
+type$ -- 4
 warning$ -- 0
-while$ -- 10
-width$ -- 4
-write$ -- 52
-(There was 1 warning)
+while$ -- 11
+width$ -- 5
+write$ -- 61
+(There was 1 error message)
