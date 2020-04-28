@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.9)  28 APR 2020 02:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.9)  28 APR 2020 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,143 +397,140 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-<./Images/distribution.png, id=1, 433.62pt x 289.08pt>
-File: ./Images/distribution.png Graphic file (type png)
-<use ./Images/distribution.png>
-Package pdftex.def Info: ./Images/distribution.png  used on input line 147.
-(pdftex.def)             Requested size: 189.0pt x 126.0002pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
+<./Images/distribution.png, id=10, 433.62pt x 289.08pt>
+File: ./Images/distribution.png Graphic file (type png)
+<use ./Images/distribution.png>
+Package pdftex.def Info: ./Images/distribution.png  used on input line 145.
+(pdftex.def)             Requested size: 189.0pt x 126.0002pt.
 <./Images/target.png, id=12, 1204.5pt x 803.0pt>
 File: ./Images/target.png Graphic file (type png)
 <use ./Images/target.png>
-Package pdftex.def Info: ./Images/target.png  used on input line 155.
+Package pdftex.def Info: ./Images/target.png  used on input line 153.
 (pdftex.def)             Requested size: 189.0pt x 125.9953pt.
 <./Images/convNet.png, id=13, 637.38126pt x 962.59625pt>
 File: ./Images/convNet.png Graphic file (type png)
 <use ./Images/convNet.png>
-Package pdftex.def Info: ./Images/convNet.png  used on input line 177.
+Package pdftex.def Info: ./Images/convNet.png  used on input line 175.
 (pdftex.def)             Requested size: 126.0pt x 190.28326pt.
 <./Images/SingleModelLoss.png, id=14, 429.605pt x 174.6525pt>
 File: ./Images/SingleModelLoss.png Graphic file (type png)
 <use ./Images/SingleModelLoss.png>
-Package pdftex.def Info: ./Images/SingleModelLoss.png  used on input line 189.
+Package pdftex.def Info: ./Images/SingleModelLoss.png  used on input line 187.
 (pdftex.def)             Requested size: 189.0pt x 76.83667pt.
- [2 <./Images/distribution.png> <./Images/target.png (PNG copy)> <./Images/conv
-Net.png>]
-<./Images/SinglePredictedVAct.png, id=20, 433.62pt x 289.08pt>
+ [2 <./Images/distribution.png> <./Images/target.png (PNG copy)>]
+<./Images/SinglePredictedVAct.png, id=19, 433.62pt x 289.08pt>
 File: ./Images/SinglePredictedVAct.png Graphic file (type png)
 <use ./Images/SinglePredictedVAct.png>
 Package pdftex.def Info: ./Images/SinglePredictedVAct.png  used on input line 1
-97.
+95.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/SingleDiffVAct.png, id=21, 433.62pt x 289.08pt>
+<./Images/SingleDiffVAct.png, id=20, 433.62pt x 289.08pt>
 File: ./Images/SingleDiffVAct.png Graphic file (type png)
 <use ./Images/SingleDiffVAct.png>
-Package pdftex.def Info: ./Images/SingleDiffVAct.png  used on input line 205.
+Package pdftex.def Info: ./Images/SingleDiffVAct.png  used on input line 203.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/singleWeights.png, id=22, 433.62pt x 289.08pt>
+<./Images/singleWeights.png, id=21, 433.62pt x 289.08pt>
 File: ./Images/singleWeights.png Graphic file (type png)
 <use ./Images/singleWeights.png>
-Package pdftex.def Info: ./Images/singleWeights.png  used on input line 213.
+Package pdftex.def Info: ./Images/singleWeights.png  used on input line 211.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/SinglePredictedBest.png, id=23, 433.62pt x 289.08pt>
+<./Images/SinglePredictedBest.png, id=22, 433.62pt x 289.08pt>
 File: ./Images/SinglePredictedBest.png Graphic file (type png)
 <use ./Images/SinglePredictedBest.png>
 Package pdftex.def Info: ./Images/SinglePredictedBest.png  used on input line 2
-21.
+19.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvModelLoss.png, id=24, 429.605pt x 178.6675pt>
+<./Images/ConvModelLoss.png, id=23, 429.605pt x 178.6675pt>
 File: ./Images/ConvModelLoss.png Graphic file (type png)
 <use ./Images/ConvModelLoss.png>
-Package pdftex.def Info: ./Images/ConvModelLoss.png  used on input line 232.
+Package pdftex.def Info: ./Images/ConvModelLoss.png  used on input line 230.
 (pdftex.def)             Requested size: 189.0pt x 78.60303pt.
- [3 <./Images/SingleModelLoss.png> <./Images/SinglePredictedVAct.png> <./Images
-/SingleDiffVAct.png> <./Images/singleWeights.png> <./Images/SinglePredictedBest
-.png>]
-<./Images/ConvPredictedVAct.png, id=33, 433.62pt x 289.08pt>
+ [3 <./Images/convNet.png> <./Images/SingleModelLoss.png> <./Images/SinglePredi
+ctedVAct.png> <./Images/SingleDiffVAct.png> <./Images/singleWeights.png>]
+<./Images/ConvPredictedVAct.png, id=32, 433.62pt x 289.08pt>
 File: ./Images/ConvPredictedVAct.png Graphic file (type png)
 <use ./Images/ConvPredictedVAct.png>
-Package pdftex.def Info: ./Images/ConvPredictedVAct.png  used on input line 240
+Package pdftex.def Info: ./Images/ConvPredictedVAct.png  used on input line 238
 .
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvDiffVAct.png, id=34, 433.62pt x 289.08pt>
+<./Images/ConvDiffVAct.png, id=33, 433.62pt x 289.08pt>
 File: ./Images/ConvDiffVAct.png Graphic file (type png)
 <use ./Images/ConvDiffVAct.png>
-Package pdftex.def Info: ./Images/ConvDiffVAct.png  used on input line 248.
+Package pdftex.def Info: ./Images/ConvDiffVAct.png  used on input line 246.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/convWeight1.png, id=35, 867.24pt x 867.24pt>
+LaTeX Font Info:    Try loading font information for U+msa on input line 251.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 251.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<./Images/convWeight1.png, id=34, 867.24pt x 867.24pt>
 File: ./Images/convWeight1.png Graphic file (type png)
 <use ./Images/convWeight1.png>
-Package pdftex.def Info: ./Images/convWeight1.png  used on input line 256.
+Package pdftex.def Info: ./Images/convWeight1.png  used on input line 254.
 (pdftex.def)             Requested size: 189.0pt x 188.9937pt.
-<./Images/convWeight2.png, id=36, 867.24pt x 867.24pt>
+<./Images/convWeight2.png, id=35, 867.24pt x 867.24pt>
 File: ./Images/convWeight2.png Graphic file (type png)
 <use ./Images/convWeight2.png>
-Package pdftex.def Info: ./Images/convWeight2.png  used on input line 262.
+Package pdftex.def Info: ./Images/convWeight2.png  used on input line 260.
 (pdftex.def)             Requested size: 189.0pt x 188.9937pt.
-<./Images/layer1activations.png, id=37, 867.24pt x 867.24pt>
+<./Images/layer1activations.png, id=36, 867.24pt x 867.24pt>
 File: ./Images/layer1activations.png Graphic file (type png)
 <use ./Images/layer1activations.png>
-Package pdftex.def Info: ./Images/layer1activations.png  used on input line 268
+Package pdftex.def Info: ./Images/layer1activations.png  used on input line 266
 .
 (pdftex.def)             Requested size: 189.0pt x 188.9937pt.
- [4 <./Images/ConvModelLoss.png> <./Images/ConvPredictedVAct.png> <./Images/Con
-vDiffVAct.png> <./Images/convWeight1.png> <./Images/convWeight2.png> <./Images/
-layer1activations.png>]
-<./Images/ConvPredictedBest.png, id=50, 433.62pt x 289.08pt>
+ [4 <./Images/SinglePredictedBest.png> <./Images/ConvModelLoss.png> <./Images/C
+onvPredictedVAct.png> <./Images/ConvDiffVAct.png> <./Images/convWeight1.png> <.
+/Images/convWeight2.png>]
+<./Images/ConvPredictedBest.png, id=49, 433.62pt x 289.08pt>
 File: ./Images/ConvPredictedBest.png Graphic file (type png)
 <use ./Images/ConvPredictedBest.png>
-Package pdftex.def Info: ./Images/ConvPredictedBest.png  used on input line 276
+Package pdftex.def Info: ./Images/ConvPredictedBest.png  used on input line 274
 .
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-<./Images/ConvHumanNoiseExample.png, id=51, 433.62pt x 289.08pt>
+<./Images/ConvHumanNoiseExample.png, id=50, 433.62pt x 289.08pt>
 File: ./Images/ConvHumanNoiseExample.png Graphic file (type png)
 <use ./Images/ConvHumanNoiseExample.png>
 Package pdftex.def Info: ./Images/ConvHumanNoiseExample.png  used on input line
- 289.
+ 287.
 (pdftex.def)             Requested size: 189.0pt x 126.0002pt.
-
-(./paper.bbl
+ (./paper.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English (US)'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English (US)'. Using the pattern for
 ** the default language instead.
-)
+[5 <./Images/layer1activations.png> <./Images/ConvPredictedBest.png> <./Images/
+ConvHumanNoiseExample.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -545,27 +542,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5 <./Images/ConvPredictedBest.png> <./Images/ConvHumanNoiseExample.png>]
-(./paper.aux) ) 
+[6
+
+] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3979 strings out of 494847
- 60359 string characters out of 6179081
+ 3957 strings out of 494847
+ 60139 string characters out of 6179081
  116566 words of memory out of 5000000
- 7228 multiletter control sequences out of 15000+600000
- 40570 words of font info for 85 fonts, out of 8000000 for 9000
+ 7214 multiletter control sequences out of 15000+600000
+ 35842 words of font info for 71 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,7n,26p,876b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (5 pages, 492923 bytes).
+ 41i,7n,26p,1376b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (6 pages, 493265 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
