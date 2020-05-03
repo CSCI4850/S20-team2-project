@@ -50,21 +50,21 @@ mbo2d@mtmail.mtsu.edu}\\
 \IEEEauthorblockA{\textit{Department of Computer Science} \\
 \textit{Middle Tennessee State University}\\
 Murfreesboro, United States \\
-email address}\\
+djw4s@mtmail.mtsu.edu}\\
 }
 \maketitle
 
 % ABSTRACT 
 
 \begin{abstract}
-Information that best describes galaxy mergers is sparse.  Complications arise when forming postulations due to missing information such as orbital mass-ratios, orbital velocities, and orientations.  To remedy this, we devised two neural networks to analyze images and human scores from Galaxy Zoo: Mergers in the hopes that a well-fitting model - one that can find true dynamic parameters for galaxy collisions.  In the single layer neural network, the information is parsed to inform the convolution net about hyperparameters such as batch or epoch sizes.  The convolution model is designed to assign a fitness score to an input galaxy image.  That score represents an approximation of how well the image fits into predicted galaxy collision simulations.  Through the limited scope of this project there are points of interest.  Both networks achieved successful validation while eventually overfitting.  The convolution net managed with good accuracy to predict scores of mergers when compared to human grading and, perhaps, more accurate than the human scores. Though the data set we used is small and unevenly distributed, there are hopeful interpretations of the results.  Better and more data sets along with more network layers may yield better results in the future.  With more tuning, our neural networks may eliminate the need for further human rankings
+Information that best describes galaxy mergers is sparse.  Complications arise when forming postulations due to missing information such as orbital mass-ratios, orbital velocities, and orientations.  To remedy this, we devised two neural networks to analyze images and human scores from Galaxy Zoo: Mergers in the hopes of finding a well-fitting model, one that can find true dynamic parameters for galaxy collisions.  In the single layer neural network, the information is parsed to inform the convolution net about hyperparameters such as batch or epoch sizes.  The convolution model is designed to assign a fitness score to an input galaxy image.  That score represents an approximation of how well the image fits into predicted galaxy collision simulations.  Through the limited scope of this project there are points of interest.  Both networks achieved successful validation while eventually overfitting.  The convolution net managed with good accuracy to predict scores of mergers when compared to human grading and, perhaps, more accurate than the human scores. Though the data set we used is small and unevenly distributed, there are hopeful interpretations of the results.  Better and more data sets along with more network layers may yield better results in the future.  With more tuning, our neural networks may eliminate the need for further human rankings
 \end{abstract}
 
 
 % KEYWORDS
 
 \begin{IEEEkeywords}
-convolutional neural networks, single layer neural networks, CNN, regression model, galaxy collisions, image scoring
+convolutional neural networks, single layer neural networks, CNN, galaxy collisions, image scoring
 \end{IEEEkeywords}
 
 % INTRODUCTION SECTION
@@ -72,7 +72,7 @@ convolutional neural networks, single layer neural networks, CNN, regression mod
 
 When two galaxies merge, it causes a drastic change in the
 evolution of the resulting galaxy. Understanding ongoing
-collisions in the night sky, will aid scientists in their exploration
+collisions in the night sky will aid scientists in their exploration
 to uncover more about merging galaxies. Unfortunately,
 information such as orbital velocities, orientations, and mass-ratios between the two galaxies cannot be obtained from
 observation alone.
@@ -85,10 +85,11 @@ galaxies, models that “best fit” observations could reflect the
 true parameters for the galaxy collisions.
 
 This project takes data from galactic models and associated
-human fitness scores, with the goal to develop several Neural
-Network Tools that help scientists better understand this
-data, and develop a machine fitness score that matches the
-human fitness score. By having theses tools, scientists can
+human fitness scores, with the goal to develop both a single layer 
+neural net and a convolutional neural net that will help scientists better understand this
+data. These two nets will be used to produce a machine fitness score for each model image
+that we hope will closely match its respective human fitness score. We will compare these two networks based on how well they were able to match human scores with their predictions.
+By having tools like these neural networks, scientists can
 quicken the search to find those well-fitting models, explore
 the galactic model parameter space, and hopefully find the
 true dynamic parameters for observable galaxy collisions.
@@ -128,7 +129,7 @@ tournament, all the models would have an associated fitness
 scores \cite{WallinGalaxyZoo}.
 
 The galactic models and their associated human fitness
-score are what were used in this project. The human fitness
+scores are what were used in this project. The human fitness
 scores were directly applied, while the galactic models had to
 be visualized again. The galactic models were sent through
 SPAM again with a larger number of particles to obtain a 
@@ -167,7 +168,7 @@ In training our nets, we found that a small batch size was an absolute necessity
 
 \subsection{Convolutional Neural Net}
 
-In our second net, we attempted to utilize the superior image recognition characteristics of a convolutional neural net. As a base, we used the convolutional neural net used on the cat problem in OLA 6 \cite{phillips}. In this net, there are two 2D convolution layers that feed into a pooling layerThe main changes made were to kernel size and the final dense layer. There are two 2D convolution layers use a standard ReLu activation function, which are then followed by pooling and dropout layer. It is the passed into a flattening layer and a single dense layer, still with a ReLu activation function, before passing though a final dropout layer and into the final dense layer. The main changes we made to this architecture from OLA 6 were in terms of kernel size, unit size of the dense and convolution layers, and the setup of the final dense layer. 
+In our second net, we attempted to utilize the superior image recognition characteristics of a convolutional neural net. As a base, we used the convolutional neural net used on the cat problem in OLA 6 \cite{phillips}. In this net, there are two 2D convolution layers that feed into a pooling layer.  The main changes made were to kernel size and the final dense layer. There are two 2D convolution layers that use a standard ReLu activation function, which are then followed by pooling and dropout layer. It is then passed into a flattening layer and a single dense layer, still with a ReLu activation function, before passing though a final dropout layer and into the final dense layer. The main changes we made to this architecture from OLA 6 were in terms of kernel size, unit size of the dense and convolution layers, and the setup of the final dense layer. 
 
 We adjusted the kernel sizes to be slightly larger. This was done in an attempt to better capture what we believed were the most important characteristics of the image, namely the tidal distortions around the edges of each galaxy and the bridge, or lack thereof, between the galaxies. The unit sizes in the convolution layers were made smaller in order to fit our relatively small data set. Without doing this, we experienced drastic overfitting or no training at all. The final dense layer was also changed to match our plan for a regression model. The input for the final layer was reduced to 1 and the activation changed to Softmax in order to return a single score between 0 and 1 for the model image.
 
@@ -189,7 +190,7 @@ We adjusted the kernel sizes to be slightly larger. This was done in an attempt 
 \label{fig:SingleModelLoss}
 \end{figure}
 
-Shown in Fig. \ref{fig:SingleModelLoss} is the training and validation loss history over 120 epochs. At the end of 120 epochs, the model had decreased to a MSE loss of 0.012 for the training data and 0.019 for the validation data. We can also plainly see the overfitting the plagued both of our neural nets, regardless of the hyperparameter tuning we performed to try to remove it.
+Shown in Fig. \ref{fig:SingleModelLoss} is the training and validation loss history over 120 epochs. At the end of 120 epochs, the model had decreased to a MSE loss of 0.012 for the training data and 0.019 for the validation data. We can also plainly see the overfitting that plagued both of our neural nets, regardless of the hyperparameter tuning we performed to try to remove it.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.75\linewidth]{./Images/SinglePredictedVAct.png}}
@@ -197,7 +198,7 @@ Shown in Fig. \ref{fig:SingleModelLoss} is the training and validation loss hist
 \label{fig:SinglePredictedVAct}
 \end{figure}
 
-Fig. \ref{fig:SinglePredictedVAct} shows the values predicted by the single layer net on the 90 testing images verus their human scores. We see a linear correlation between the two, which is what we hoped to observe. A perfect linear correlation would have meant that the model was guessing exactly the same as the human score.
+Fig. \ref{fig:SinglePredictedVAct} shows the values predicted by the single layer net on the 90 testing images verus their generated scores. We see a linear correlation between the two, which is what we hoped to observe. A perfect linear correlation would have meant that the model was guessing exactly the same as the human score.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.75\linewidth]{./Images/SingleDiffVAct.png}}
@@ -268,7 +269,7 @@ Once again, Fig. \ref{fig:ConvDiffVAct} shows that the convolutional net has a t
 \label{fig:layer1activations}
 \end{figure}
 
-Fig. \ref{fig:convWeight1} and Fig. \ref{fig:convWeight2} show the weights for the first and second convolution layers respectively. However, it is hard to glean and useful information from just these weights on their own. That is why we have shown the activations of units in the first layer in Fig. \ref{fig:layer1activations}. We can see that for this specific activation, the net was processing a model that was very similar to the target image. We can see units that are picking up the major features: galactic cores, tidal distortions, and the bridge. We can also plainly see the units that are detecting the edges of the galaxies, as well as some units that aren't really being utilized.
+Fig. \ref{fig:convWeight1} and Fig. \ref{fig:convWeight2} show the weights for the first and second convolution layers respectively. However, it is hard to glean any useful information from just these weights on their own. That is why we have shown the activations of units in the first layer in Fig. \ref{fig:layer1activations}. We can see that for this specific activation, the net was processing a model that was very similar to the target image. We can see units that are picking up the major features: galactic cores, tidal distortions, and the bridge. We can also plainly see the units that are detecting the edges of the galaxies, as well as some units that aren't really being utilized.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.75\linewidth]{./Images/ConvPredictedBest.png}}
