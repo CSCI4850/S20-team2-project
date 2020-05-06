@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 630
+model_name h964dlm1knc5m0dtr04_0000
+model_data -9.93853,-4.5805,1.2255,-0.87549,0.765,7.48716,16.98341,18.02469,3.62303,4.55909,309.74129,26.99719,139.76738,310.34368,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.08823,0,0,0.03931,-0.24,10.83563,0.0,0.0,0.0,0.0,0.0,0.0
+human_score 0.08823529411764706
+wins_total 3/34
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400

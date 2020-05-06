@@ -1,0 +1,16 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 1018
+model_name ngfk4554egspvdzeud1_0006
+model_data -9.93853,-4.5805,-3.55124,-0.1771,1.43822,4.25827,25.45424,9.20605,4.73237,3.86535,305.74651,36.29374,136.10037,295.49978,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.02857,0,0,0.03492,-0.36,11.11261,0.0,0.0,1.0,0.0,0.0,0.0
+human_score 0.02857142857142857
+wins_total 1/35
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400

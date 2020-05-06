@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 770
+model_name 2isa2bpumpippge5so1_0000
+model_data -9.93853,-4.5805,12.00382,-2.10034,-2.61668,-7.79783,26.97044,20.76554,3.48422,3.29859,301.75,29.3125,324.2236,342.1118,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.05882,0,0,0.50518,-2.75999,3.64176,0.0,1.0,1.0,1.0,0.0,0.0
+human_score 0.058823529411764705
+wins_total 2/34
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400

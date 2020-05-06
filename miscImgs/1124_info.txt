@@ -1,0 +1,16 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 1124
+model_name qsw161q205in1ltlx74_0004
+model_data -9.93853,-4.5805,0.38026,-0.38455,-1.0848,7.02774,26.85952,28.62932,3.87708,2.69912,296.51208,25.30271,38.03117,291.78881,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.41743,-6.16,6.13437,0.0,0.0,0.0,0.0,0.0,0.0
+human_score 0.0
+wins_total 0/35
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399

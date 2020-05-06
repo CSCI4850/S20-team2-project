@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 60
+model_name re1rf65c978w3su277f_0000
+model_data -9.93853,-4.5805,17.84847,-2.05861,-1.89945,4.83656,16.78928,10.00138,3.8459,3.09321,301.60449,34.86275,37.9427,308.54016,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.68571,0,0,0.32926,-2.99999,3.24,0.0,0.0,0.0,0.0,0.0,0.0
+human_score 0.6857142857142857
+wins_total 24/35
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 400
+param_2 400 400 800 400
+param_2 400 400 800 400

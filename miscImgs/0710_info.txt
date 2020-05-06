@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 710
+model_name s79056rikia2ur2ww3y_0001
+model_data -9.93853,-4.5805,-1.44483,1.41915,2.61234,7.54514,33.07803,13.17748,2.26401,4.76957,291.64174,37.71904,318.28496,311.20452,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.08333,0,0,0.04626,0.0,11.10613,0.0,1.0,0.0,0.0,0.0,0.0
+human_score 0.08333333333333333
+wins_total 3/36
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 799 400
+param_2 400 400 799 400
+param_2 400 400 799 400

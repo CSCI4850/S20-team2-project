@@ -1,0 +1,15 @@
+SPAM Particle Information
+sdss_name 587722984435351614
+generation 0
+run_number 464
+model_name 1q23300bnrsx4bh5pcf_0000
+model_data -9.93853,-4.5805,20.57351,-2.11385,-1.04283,6.43043,15.71066,19.83888,3.731,5.01246,292.6572,23.52706,225.63145,67.3728,0.3,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.11764,0,0,21.27086,-4.11999,0.35916,0.0,0.0,0.0,0.0,0.0,0.0
+human_score 0.11764705882352941
+wins_total 4/34
+g1_num_particles 100000
+g2_num_particles 100000
+
+Image Creator Information
+param_2 400 400 800 399
+param_2 400 400 800 399
+param_2 400 400 800 399
